@@ -6,7 +6,10 @@ public class Main {
 	    Album album1 = new Album();
 	    Album album2 = new Album("MONSTA X", "GAMBLER");
 
-        System.out.printf("가수 : %s / 제목 : %s / 회사 : %s \n", album1.getSinger(), album1.getTitle(), album1.getCompany());
-        System.out.printf("가수 : %s / 제목 : %s / 회사 : %s", album2.getSinger(), album2.getTitle(), album2.getCompany());
+        InstanceBlock instanceBlock1 = new InstanceBlock();
+        InstanceBlock instanceBlock2 = new InstanceBlock("MONSTA X", "GAMBLER");
+
+        StaticBlock staticBlock1 = new StaticBlock("생성자1");
+        StaticBlock staticBlock2 = new StaticBlock("생성자2");
     }
 }

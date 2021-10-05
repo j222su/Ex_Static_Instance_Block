@@ -7,18 +7,18 @@ public class InstanceBlock {
     String company = "";
 
     {
-        System.out.println("인스턴스 블록");
+        System.out.println("Instance Block");
         company = "Starship";
     }
 
     public InstanceBlock() {
-        System.out.println("기본 생성자");
+        System.out.println("InstanceBlock 기본 생성자");
         singer = "MONSTA X";
         title = "LOVE KILLA";
     }
 
     public InstanceBlock(String singer, String title) {
-        System.out.println("생성자");
+        System.out.println("InstanceBlock 생성자");
         this.singer = singer;
         this.title = title;
     }
